@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Sound Reactive Particles — p5.js</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- p5.js and p5.sound from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <input id="audioFile" type="file" accept="audio/*" />
+    <button id="playBtn">Play / Pause</button>
+    <label class="hint">Click the canvas to enable audio if needed</label>
+  </div>
+
+  <!-- p5 canvas will be inserted here -->
+  <script src="script.js"></script>
+</body>
+</html>
